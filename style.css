@@ -99,9 +99,10 @@ nav ul li a {
 }
 
 .card img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 8px;
+    max-width: 100%;
+    max-height: 120px;
+    object-fit: cover;
+    display:block;
     margin-bottom: 10px;
+   
 }
