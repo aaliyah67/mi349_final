@@ -71,6 +71,7 @@ nav ul li a {
   transition: 0.3s ease;
   overflow: hidden;
   cursor: pointer;
+  flex: 1 1 300px;
 }
 
 .card:hover {
@@ -89,6 +90,8 @@ nav ul li a {
 
 .cards-box {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
 }
