@@ -71,6 +71,9 @@ nav ul li a {
   transition: 0.3s ease;
   overflow: hidden;
   cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .card:hover {
@@ -87,8 +90,3 @@ nav ul li a {
   opacity: 1;
 }
 
-article {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-}
