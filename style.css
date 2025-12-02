@@ -87,3 +87,8 @@ nav ul li a {
   opacity: 1;
 }
 
+article {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
