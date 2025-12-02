@@ -51,6 +51,7 @@ nav ul {
         list-style: none;
         gap: 200px;
         padding: 0;
+        margin: 0;
     }
 
 nav ul a {
