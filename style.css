@@ -72,10 +72,12 @@ nav ul li a {
   overflow: hidden;
   cursor: pointer;
   flex: 1 1 300px;
+  overflow: visible;
 }
 
 .card:hover {
   background: #ffffff;
+  display:block;
 }
 
 .card .description {
