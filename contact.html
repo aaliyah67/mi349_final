@@ -19,3 +19,23 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
+
+    <section>
+        <h2>Contact Form</h2>
+        <form name="contact" method="POST" data-netlify="true">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="reason">Reason for Contact:</label>
+            <select name="reason" id="reason" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="inquiry">General Inquiry</option>
+                <option value="collaboration">Looking to Collaborate on a Project</option>
+                <option value="opportunity">Job/Internship Opportunity</option>
+            </select>
+            <label for="comments">Open Comments</label>
+            <textarea id="comments" name="comments" rows="5" cols="33"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
