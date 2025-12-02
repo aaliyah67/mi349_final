@@ -68,9 +68,9 @@ nav ul li a {
   background: #f1f1ff;
   border: 2px solid #B6C8E8;
   border-radius: 12px;
-  transition: 0.3s ease;
+  /* transition: 0.3s ease;
   overflow: hidden;
-  cursor: pointer;
+  cursor: pointer; */
   /* flex: 1 1 300px; */
   /* overflow: visible; */
 }
