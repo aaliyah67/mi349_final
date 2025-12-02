@@ -71,8 +71,8 @@ nav ul li a {
   transition: 0.3s ease;
   overflow: hidden;
   cursor: pointer;
-  flex: 1 1 300px;
-  overflow: visible;
+  /* flex: 1 1 300px; */
+  /* overflow: visible; */
 }
 
 
