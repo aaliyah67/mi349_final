@@ -79,9 +79,7 @@ nav ul li a {
 
 
 
-.card:hover .description {
-  opacity: 1;
-}
+
 
 .cards-box {
     display: flex;
