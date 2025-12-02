@@ -66,6 +66,7 @@ nav ul li a {
   height: 180px;
   padding: 20px;
   background: #FAFAFF;
+  border: #B6C8E8;
   border-radius: 12px;
   transition: 0.3s ease;
   overflow: hidden;
