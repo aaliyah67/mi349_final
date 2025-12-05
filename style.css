@@ -146,7 +146,7 @@ nav ul li a:hover {
    
 }
 
-.full-intro {
+/* .full-intro {
     display: flex;
     gap: 40px;
     background: white;
@@ -158,7 +158,7 @@ nav ul li a:hover {
     align-items: flex-start; 
     justify-content: space-between;
     flex-wrap: wrap; 
-}
+} */
 
 
 .intro-text {
@@ -197,17 +197,30 @@ nav ul li a:hover {
     color: #333;
 }
 
-.text-column {
+/* .text-column {
     display: flex;
     flex-direction: column;
     gap: 20px; /* space between headings, paragraph, list, and button */
     flex: 1; /* take up remaining space on the left */
+} */
+
+.full-intro {
+    display: flex;
+    align-items: flex-start; /* aligns the text column to the top */
+    justify-content: space-between;
+    gap: 40px;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    margin: 40px auto;
+    max-width: 1100px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.07);
 }
 
-.intro-highlights {
-    list-style: none;
-    padding-left: 0;
+/* Treat all text elements as a vertical column */
+.text-column {
+    flex: 1;             /* take up remaining space */
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;           /* spacing between each text element */
 }
