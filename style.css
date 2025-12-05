@@ -197,6 +197,9 @@ nav ul li a:hover {
     color: #333;
 }
 
-
+.intro-highlights {
+    display: flex;
+    justify-content: flex-start;
+}
 
 
