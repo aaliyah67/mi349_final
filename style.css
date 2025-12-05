@@ -203,3 +203,11 @@ nav ul li a:hover {
     gap: 20px; /* space between headings, paragraph, list, and button */
     flex: 1; /* take up remaining space on the left */
 }
+
+.intro-highlights {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
