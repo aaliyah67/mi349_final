@@ -40,6 +40,44 @@ form {
     display: block;
     margin: auto;
 }
+label {
+    display: block;
+    
+}
+#email {
+    padding: 10px;
+    
+}
+input[type="email"] {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+
+#name {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 10px;
+  
+}
+
+#reason {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+#comments {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
 nav {
     position: sticky;
     top: 0;
@@ -97,3 +135,4 @@ nav ul li a {
     margin-bottom: 10px;
    
 }
+
