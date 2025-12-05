@@ -17,10 +17,13 @@ h1 {
 
 h2 {
     color: black;
+    font-size: 2rem;
+    margin-bottom: 15px;
 }
 
 p {
     line-height: 1.6;
+    margin-bottom: 20px;
 }
 
 figure {
