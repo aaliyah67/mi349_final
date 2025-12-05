@@ -198,8 +198,9 @@ nav ul li a:hover {
 }
 
 .intro-highlights {
-    margin-top: -100px; /* if you still want it nudged up */
-    padding-left: 20px; /* optional, to keep bullet indent */
+    display: flex;
+    justify-content: left;
+    flex
 }
 
 
