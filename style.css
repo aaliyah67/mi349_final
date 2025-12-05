@@ -197,12 +197,6 @@ nav ul li a:hover {
     color: #333;
 }
 
- .text-column {
-    display: flex;
-    flex-direction: column;
-    gap: 20px; /* space between headings, paragraph, list, and button */
-    flex: 1; /* take up remaining space on the left */
-} 
-
+ 
 
 
