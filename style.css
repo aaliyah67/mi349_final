@@ -162,6 +162,7 @@ nav ul li a:hover {
 
 /* This groups all text elements as one column */
 .intro-text {
+    font-size: 3rem;
     flex: 1 1 400px;  /* flexible width for text column */
     max-width: 600px; /* prevents it from stretching too much */
 }
