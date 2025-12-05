@@ -199,7 +199,8 @@ nav ul li a:hover {
 
 .intro-highlights {
     display: flex;
-    justify-content:left;
+    flex-direction: column; /* stack items vertically */
+    gap: 5px; /* spacing between list items */
     margin-top: -100px;
 }
 
