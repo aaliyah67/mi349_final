@@ -157,11 +157,18 @@ nav ul li a:hover {
     margin: 40px auto;
     max-width: 1100px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+    flex-wrap: wrap;
+}
+
+.intro-text {
+    flex: 1 1 300px;
+    max-width: 600px;
 }
 
 .intro-line {
     font-size: 2.4rem;
     margin-bottom: 10px;
+
 }
 
 .intro-par {
@@ -169,15 +176,18 @@ nav ul li a:hover {
     margin-bottom: 25px;
 }
 
+
 .intro-img {
-    flex: 1;
-    text-align: center; 
+    flex: 1 1 300px;
+    text-align: center;
 }
 
 .intro-img img {
-    max-width: 100%;
+    width: 100%;
+    height: auto;  
     border-radius: 12px;
     border: 3px solid #B6C8E8;
+    object-fit: cover;
 }
 
 .intro-img figcaption {
