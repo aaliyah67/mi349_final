@@ -197,6 +197,9 @@ nav ul li a:hover {
     color: #333;
 }
 
- 
+.full-intro > *:not(.intro-img) {
+  display: flex;
+  flex-direction: column;
+}
 
 
