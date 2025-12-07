@@ -63,9 +63,8 @@ form {
 }
 
 h3.all {
-    text-align: left;          /* aligns the heading with the cards */
-    margin-left: 20px;         /* adds a bit of spacing from the edge */
-    margin-bottom: 20px;       /* spacing between heading and cards */
+    align-self: flex-start; /* aligns heading with the start of the flex container */
+    margin-bottom: 20px;    /* spacing between heading and cards */
 }
 
 .contact-box {
