@@ -240,6 +240,10 @@ h3.all {
     margin-bottom: 20px;
 }
 
+.cards-box p {
+    margin-bottom: 10px;
+}
+
 
 
 .cards-box {
@@ -248,7 +252,6 @@ h3.all {
     gap: 20px;
     flex-wrap: wrap;
     margin-top: 20px;
-    margin-bottom: 10px;
 }
 
 .card img {
