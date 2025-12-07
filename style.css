@@ -154,6 +154,10 @@ nav {
     padding: 8px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
+
+nav a {
+    font-weight: 600;
+}
 nav ul {
         display: flex;
         list-style: none;
