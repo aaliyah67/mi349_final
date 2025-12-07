@@ -114,6 +114,11 @@ nav ul li a:hover {
     background: white;
     color: #392759;
 }
+
+nav ul .logo img {
+    height: 40px;      
+    width: auto;
+}
 .card {
   position: relative;
   width: 300px;
