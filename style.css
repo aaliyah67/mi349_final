@@ -154,6 +154,7 @@ nav {
     z-index: 1000;
     padding: 8px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    background-color:#96b4e7
     
 }
 
@@ -182,10 +183,7 @@ nav ul li a:hover {
     color: #392759;
 }
 
-nav ul .logo img {
-    height: 40px;      
-    width: auto;
-}
+
 .card {
   position: relative;
   width: 300px;
