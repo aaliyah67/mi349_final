@@ -206,6 +206,33 @@ nav ul li a:hover {
     list-style: none;
     padding: 0;
 }
- 
+
+.intro-highlights li {
+    margin-bottom: 10px;
+}
+
+.intro-highlights a {
+    display: inline-block;
+    padding: 8px 14px;
+    background: #f1f1ff;
+    border: 2px solid #B6C8E8;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.intro-highlights a {
+    display: inline-block;
+    padding: 8px 14px;
+    background: #f1f1ff;
+    border: 2px solid #B6C8E8;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
 
 
