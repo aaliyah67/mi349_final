@@ -414,3 +414,9 @@ nav ul li a:hover {
     }
 }
 
+@media (max-width: 600px) {
+    .intro-highlights {
+        margin-top: 20px; /* smaller gap between heading and list */
+    }
+}
+
