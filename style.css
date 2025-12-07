@@ -343,7 +343,7 @@ nav ul li a:hover {
 }
 
 
-@media (max-width: 900px) {
+/*@media (max-width: 900px) {
     .full-intro {
         flex-direction: column;
         text-align: center;
@@ -364,7 +364,7 @@ nav ul li a:hover {
     .card {
         max-width: 100%;
     }
-}
+}*/
 
 /* For mobile phones */
 @media (max-width: 600px) {
