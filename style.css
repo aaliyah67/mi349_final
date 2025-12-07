@@ -149,7 +149,7 @@ nav ul li a:hover {
  .full-intro {
     display: flex;
     gap: 40px;
-    background: white;
+    background: #f1f1ff;
     padding: 40px;
     border-radius: 12px;
     margin: 40px auto;
