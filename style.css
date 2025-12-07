@@ -133,12 +133,29 @@ nav ul li a:hover {
 }
 
 .hi-list li {
-    border-left: 4px solid #392759; /* pick your accent color */
+    border-left: 4px solid #392759; 
     padding-left: 10px;
     margin: 8px 0;
     list-style: none;
 }
 
+.project-details {
+  list-style: none;      
+  padding: 0;
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 8px 16px;           
+}
+
+.project-details li {
+  background: #eef3ff; 
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: #333;
+  border: 1px solid #c8d6f0;
+}
 
 
 
