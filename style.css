@@ -56,7 +56,9 @@ img {
 form {
     margin-top: 20px;
     display: block;
-    margin: auto;
+    /*margin: auto;*/
+    max-width: 400px;
+    margin: 40px auto;
 }
 
 .contact-box {
@@ -96,6 +98,11 @@ button, input[type="submit"] {
 
 button:hover, input[type="submit"]:hover {
     background-color: #57418c;
+}
+
+input, select, textarea, button {
+    width: 100%;
+    box-sizing: border-box;
 }
 
 label {
