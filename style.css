@@ -62,7 +62,7 @@ form {
 .contact-box {
     max-width: 600px;
     margin: 40px auto;
-    background: white;
+    background: #E8F1FF;
     padding: 30px 40px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
@@ -70,17 +70,19 @@ form {
 }
 input, select, textarea {
     width: 100%;
-    border: 2px solid #B6C8E8;
-    border-radius: 10px;
-    padding: 10px;
-    margin-bottom: 15px;
+    padding: 12px;
+    margin-bottom: 20px;  /* spacing between inputs */
+    border: 1px solid #B6C8E8; 
+    border-radius: 8px;
+    background: white;    /* contrast against blue form box */
     font-size: 1rem;
 }
 
-input:focus, select:focus, textarea:focus {
+input:focus, textarea:focus, select:focus {
     outline: none;
     border-color: #392759;
-    box-shadow: 0 0 5px rgba(57,39,89,0.3);
+    box-shadow: 0 0 5px rgba(57, 39, 89, 0.3);
+    background: #FFFFFF;
 }
 button, input[type="submit"] {
     background-color: #392759;
@@ -98,6 +100,10 @@ button:hover, input[type="submit"]:hover {
 
 label {
     display: block;
+    margin-bottom: 6px;   /* space between label + input */
+    font-weight: 600;
+    color: #392759;       /* matches your site theme */
+    text-align: left;
     
 }
 #email {
