@@ -12,10 +12,11 @@ header {
     padding: 10px;
    
 }
-/*.logo {
+.logo {
     height: 50px;
     width: auto;
-}*/
+    align-items: center;
+}
 
 h1 {
     text-align: center;
