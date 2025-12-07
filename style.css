@@ -344,79 +344,59 @@ nav ul li a:hover {
 
 
 @media (max-width: 900px) {
-    body {
-        padding: 10px;
-    }
-
-    nav ul {
-        display: flex;
+    .full-intro {
         flex-direction: column;
-        gap: 10px;
-        padding: 0;
+        text-align: center;
     }
 
-    article {
-        margin: 10px;
-        padding: 15px;
-    }
-
-    img {
-        max-width: 100%
-    }
-
-    h2 {
-        font-size: 2em;
-    }
-
-    h3 {
-        font-size: 2em;
-    }
-
-    img {
-        max-width: 100%
-    }
-}
-
-@media (max-width: 600px) {
-
-    body {
-        background-color: #ffff;
-    }
-
-    nav ul {
-        display: flex;
-        flex-direction: column;
-        align-items: left;
-        gap: 8px;
-
-    }
-
-    article {
-        margin: 5px;
-        padding: 10px;
-    }
-
-    h2 {
-        font-size: 2em;
-    }
-
-    h3 {
-        font-size: 2em;
-    }
-
-    p {
-        font-size: 1em;
-    }
-
-    img {
+    .intro-par {
         max-width: 100%;
     }
 
+    nav ul {
+        gap: 20px;
+    }
+
+    .cards-box {
+        gap: 15px;
+    }
+
+    .card {
+        max-width: 100%;
+    }
 }
 
+/* For mobile phones */
 @media (max-width: 600px) {
-    table{
-        font-size: 14px;
+    body {
+        margin: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .full-intro h3 {
+        font-size: 1.4rem;
+    }
+
+    .intro-line {
+        font-size: 1.5rem;
+    }
+
+    .intro-par {
+        font-size: 0.95rem;
+    }
+
+    .cards-box {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
     }
 }
 
