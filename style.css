@@ -343,3 +343,80 @@ nav ul li a:hover {
 }
 
 
+@media (max-width: 900px) {
+    body {
+        padding: 10px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+    }
+
+    article {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    img {
+        max-width: 100%
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 2em;
+    }
+
+    img {
+        max-width: 100%
+    }
+}
+
+@media (max-width: 600px) {
+
+    body {
+        background-color: #ffff;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        gap: 8px;
+
+    }
+
+    article {
+        margin: 5px;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width: 600px) {
+    table{
+        font-size: 14px;
+    }
+}
+
