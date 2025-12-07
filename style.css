@@ -62,6 +62,10 @@ form {
     margin: 40px auto;
 }
 
+.all {
+    justify-content: left;
+}
+
 .contact-box {
     max-width: 600px;
     margin: 40px auto;
