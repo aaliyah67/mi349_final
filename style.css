@@ -18,7 +18,7 @@ header {
     width: 100%;          /* full width */
     background-color: #392759;  /* your purple */
     color: white;
-    /*padding: 20px 0;      /* vertical padding */
+    padding: 20px 0;      /* vertical padding */
     text-align: center;   /* center the title */
    
 }
