@@ -399,8 +399,13 @@ nav ul li a:hover {
         width: 100%;
     }
 
-    .intro-highlights {
+    .intro-highlights h3 {
         margin-top: 100px;
+    }
+
+    .intro-highlights ul {
+        margin-top 20px;
+        margin-bottom: 20px;
     }
 }
 
