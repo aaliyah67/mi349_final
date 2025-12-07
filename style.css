@@ -154,7 +154,7 @@ nav ul li a:hover {
   border-radius: 8px;
   font-size: 0.9rem;
   color: #333;
-  border: 1px solid #c8d6f0;
+  border: 1px solid #B6C8E8;
 }
 
 
@@ -232,7 +232,7 @@ nav ul li a:hover {
     list-style: disc;
     padding-left: 20px;
     flex: 1 1 100%; 
-    margin-top: -350px; /* increase the # and this should work to move list up */
+    margin-top: -350px; 
     list-style: none;
     padding: 0;
 }
