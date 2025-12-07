@@ -398,5 +398,9 @@ nav ul li a:hover {
     .card {
         width: 100%;
     }
+
+    .full-intro {
+        display: flex;
+    }
 }
 
