@@ -404,7 +404,7 @@ nav ul li a:hover {
     }
 
     .intro-highlights ul {
-        margin-bottom: 200px;
+        margin-bottom: -200px;
     }
 }
 
