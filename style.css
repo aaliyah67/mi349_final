@@ -403,8 +403,14 @@ nav ul li a:hover {
         margin-top: 100px;
     }
 
-    .intro-highlights ul {
+    /*.intro-highlights ul {
         margin-bottom: -200px;
+    }*/
+}
+
+@media (max-width: 600px) {
+    .highlights-section h3 {
+        margin-bottom: 10px; /* reduce extra space */
     }
 }
 
