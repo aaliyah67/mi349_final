@@ -201,7 +201,7 @@ nav ul li a:hover {
     list-style: disc;
     padding-left: 20px;
     flex: 1 1 100%; /* makes the list span full width under the text */
-    /*margin-top: -1000px; /* increase the # and this should work to move list up */
+    margin-top: -500px; /* increase the # and this should work to move list up */
 }
  
 
