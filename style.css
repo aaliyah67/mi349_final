@@ -66,8 +66,7 @@ h3.all {
     text-align: left;       /* aligns the text inside the heading to the left */
     max-width: 300px;       /* roughly same width as a card */
     margin: 0 auto 20px;    /* centers the heading block horizontally and adds space below */
-    padding-bottom: 1000px;           /* space between text and line */
-    border-bottom: 2px solid #392759;
+    
 }
 
 .contact-box {
