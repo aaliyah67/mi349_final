@@ -58,6 +58,44 @@ form {
     display: block;
     margin: auto;
 }
+
+.contact-box {
+    max-width: 600px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    text-align: center;
+}
+input, select, textarea {
+    width: 100%;
+    border: 2px solid #B6C8E8;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: #392759;
+    box-shadow: 0 0 5px rgba(57,39,89,0.3);
+}
+button, input[type="submit"] {
+    background-color: #392759;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #57418c;
+}
+
 label {
     display: block;
     
