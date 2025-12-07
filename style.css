@@ -410,13 +410,13 @@ nav ul li a:hover {
 
 @media (max-width: 600px) {
     .highlights-section h3 {
-        margin-bottom: 10px; /* reduce extra space */
+        margin-bottom: 10px; 
     }
 }
 
 @media (max-width: 600px) {
     .intro-highlights {
-        margin-top: 20px; /* smaller gap between heading and list */
+        margin-top: 20px; 
     }
 }
 
