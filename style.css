@@ -347,30 +347,9 @@ nav ul li a:hover {
 }
 
 
-/*@media (max-width: 900px) {
-    .full-intro {
-        flex-direction: column;
-        text-align: center;
-    }
 
-    .intro-par {
-        max-width: 100%;
-    }
 
-    nav ul {
-        gap: 20px;
-    }
 
-    .cards-box {
-        gap: 15px;
-    }
-
-    .card {
-        max-width: 100%;
-    }
-}*/
-
-/* For mobile phones */
 @media (max-width: 600px) {
     body {
         margin: 20px;
@@ -407,9 +386,7 @@ nav ul li a:hover {
         margin-top: 100px;
     }
 
-    /*.intro-highlights ul {
-        margin-bottom: -200px;
-    }*/
+    
 }
 
 @media (max-width: 600px) {
