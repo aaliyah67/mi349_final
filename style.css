@@ -16,14 +16,14 @@ header {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #D6E5FF;  /* or whatever your theme is */
+    background-color: #D6E5FF;  
     color: black;
 }
 
 .logo {
     display: block;
-    margin: 0 auto 10px; /* centers it + adds spacing */
-    height: 60px;        /* adjust as needed */
+    margin: 0 auto 10px; 
+    height: 60px;        
     width: auto;
 }
 
@@ -76,10 +76,10 @@ form {
 input, select, textarea {
     width: 100%;
     padding: 12px;
-    margin-bottom: 20px;  /* spacing between inputs */
+    margin-bottom: 20px;  
     border: 1px solid #B6C8E8; 
     border-radius: 8px;
-    background: white;    /* contrast against blue form box */
+    background: white;    
     font-size: 1rem;
 }
 
@@ -110,9 +110,9 @@ input, select, textarea, button {
 
 label {
     display: block;
-    margin-bottom: 6px;   /* space between label + input */
+    margin-bottom: 6px;   
     font-weight: 600;
-    color: #392759;       /* matches your site theme */
+    color: #392759;       
     text-align: left;
     
 }
